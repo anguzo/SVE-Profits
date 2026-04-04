@@ -14,6 +14,7 @@
 		<div class="title">
 		</div>
 
+		<script src="js/predictions.js"> </script>
 		<script src="js/crops.js"> </script>
 		<script src="js/data.js"> </script>
 		<div class="graph">
@@ -52,7 +53,7 @@
             </tr>
 
             <tr>
-                <td>Number of Crops:</td>
+                <td>Crops Tiles:</td>
                 <td><input type="number" id="number_planted" value="1" onChange="refresh()"/></td>
             </tr>
 
@@ -65,6 +66,7 @@
 						<option value="2">Keg</option>
                         <option value="3">Seeds</option>
 						<option value="4">Dehydrator</option>
+						<option value="5">Mill</option>
 					</select>
 				</td>
 			</tr>
@@ -256,6 +258,12 @@
 				<td>Disable Crop Links:</td>
 				<td><input type="checkbox" id="disable_links" onChange="refresh()" /></td>
 			</tr>
+
+			<tr>
+				<td>Use Prediction Model:</td>
+				<td><input type="checkbox" id="predictionModel" onChange="refresh()" />
+				<button type="button" onClick="refresh()" >Recalculate</button></td>
+			</tr>
 			
 			<tr>
 				<td colspan="3" id="tdhelp"><div id="divhelp"><a href="help.html">Help</a><a href="changes.html">Changes</a><a href="#" id="reset">Reset</a></div></td>
@@ -265,7 +273,7 @@
 		</div>
 
 		<div class="footer">
-			<p><a href="http://stardewvalley.net/" target="_blank">Stardew Valley v1.6.7</a> &copy; <a href="https://twitter.com/ConcernedApe" target="_blank">ConcernedApe</a> | Website designed by <a href="https://twitter.com/thorinair_music" target="_blank">Thorinair</a> | <a href="https://github.com/Thorinair/Stardew-Profits" target="_blank">Stardew Profits v1.6.11</a></p>
+			<p><a href="http://stardewvalley.net/" target="_blank">Stardew Valley v1.6.15</a> &copy; <a href="https://twitter.com/ConcernedApe" target="_blank">ConcernedApe</a> | Website designed by <a href="https://twitter.com/thorinair_music" target="_blank">Thorinair</a> | <a href="https://github.com/Thorinair/Stardew-Profits" target="_blank">Stardew Profits v1.7.3</a></p>
 		</div>
 
 		<script src="js/time.js"> </script>

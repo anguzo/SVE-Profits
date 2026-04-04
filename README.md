@@ -16,7 +16,7 @@ Season | Changes the season of the crops. This will affect list of the crops sho
 Cross-Season | If this is checked, the calculations will take into account the crops that don't die when there's a season change.
 Current Day | The current date within the selected season. This is almost the same as "Number of days", but instead of specifying how many days are left, as a convenience you can just input the current in-game date.
 Number of Days | Designates the number of days to be used in the calculation. The shorter the duration, the less crops will have time to grow. Some crops might not have time to grow even once if a too low value is set.
-Number of Crops | This controls the number of crops that the player has planted.
+Crop Tiles | The number of active crop tiles that the player will use for planting.
 Produce Type | Designates the type of produce to be sold after harvesting. By default, all crops are harvested and sold as raw. This option accounts for Normal/Silver/Gold ratios, *Farming* skill level, and some additional skills. Other options let you select one of the three different artisan goods. *Please take note that the Dehydrator may not use all produced crops, or not have enough crops to create dried goods.
 Equipment | Specifies how many Jars, Kegs, or Dehydrators you plan to use. This acts as a hard limit to the number of harvested crops on each harvest and ignores the time duration. Value is ignored when set to 0.
 No Artisan Good | In case there is no available artisan good of the selected type, use the Raw crop sell price.
@@ -41,6 +41,7 @@ Foraging Level 10 Skill | The *Botanist* skill is available once the player reac
 Farming Food Buff | The consumable buff active on the player.
 Show Extra Info | Selecting this will show additional detailed info about every crop on the tooltip.
 Disable Links | Selecting this will disable opening the Official Wiki when the bar graph is clicked.
+Use Prediction Model | Selecting this will enable @doodlebunnyhops prediction model, which, instead of using averaging calculations, will calculate crop predictions based on randomnes. Pressing on the Recalculate button will re-run the predictions. Results will vary on each re-run.
 
 # Contact
-You may contact me on the following locations: [Twitter](https://twitter.com/thorinair_music) | [Reddit](https://www.reddit.com/user/Thorinair/) | [YouTube](https://www.youtube.com/user/Thorinair) | [deviantArt](http://thorinair.deviantart.com/)
+You may contact me on the following locations: [Twitter](https://twitter.com/thorinair_music) | [Bluesky](https://bsky.app/profile/thorinair.bsky.social)
